@@ -2,3 +2,4 @@ auto: true
 baseurl: /
 permalink: /:year/:month/:day/:title
 markdown: redcarpet
+gems: [jekyll-assets]
