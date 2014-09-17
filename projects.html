@@ -17,19 +17,21 @@ title: Aldridge Interiors - Services
 <div class="row project-text">
   <div data-tab-target="spaces" data-tab-default>
     {% for i in (1..8) %}
-      <div class="col-md-3"><img src="/images/spaces/{{ i }}.jpg"></div>
+      <div class="col-md-3"><a href="/images/spaces/{{ i }}.jpg"><img src="/images/spaces/{{ i }}_small.jpg"></a></div>
     {% endfor %}
   </div>
 
   <div data-tab-target="concepts">
     {% for i in (1..8) %}
-      <div class="col-md-3"><img src="/images/drawings/{{ i }}.jpg"></div>
+      <div class="col-md-3"><a href="/images/drawings/{{ i }}.jpg"><img src="/images/drawings/{{ i }}_small.jpg"></a></div>
     {% endfor %}
   </div>
 
   <div data-tab-target="styling">
     {% for i in (1..9) %}
-      <div class="col-md-3"><img src="/images/styling/{{ i }}.jpg"></div>
+      <div class="col-md-3"><a href="/images/styling/{{ i }}.jpg"><img src="/images/styling/{{ i }}_small.jpg"></a></div>
     {% endfor %}
   </div>
+
 </div>
+<div class="image-modal"></div>
