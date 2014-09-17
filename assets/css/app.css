@@ -86,3 +86,16 @@ div.about-text img {
 div.service-text ul {
   list-style-type: none;
   margin: 24px; }
+
+div.project-text {
+  margin: 42px 18px;
+}
+
+div.project-text .col-md-3 {
+  overflow: hidden;
+}
+
+div.project-text img {
+  height: 200px;
+  margin-bottom: 24px;
+}

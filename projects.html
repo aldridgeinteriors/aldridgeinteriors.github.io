@@ -14,16 +14,22 @@ title: Aldridge Interiors - Services
   </div>
 </div>
 
-<div class="row">
+<div class="row project-text">
   <div data-tab-target="spaces" data-tab-default>
-    spaces
+    {% for i in (1..8) %}
+      <div class="col-md-3"><img src="images/spaces/{{ i }}.jpg"></div>
+    {% endfor %}
   </div>
 
   <div data-tab-target="concepts">
-    concepts
+    {% for i in (1..9) %}
+      <div class="col-md-3"><img src="images/drawings/{{ i }}.jpg"></div>
+    {% endfor %}
   </div>
 
   <div data-tab-target="events">
-    events
+    {% for i in (1..10) %}
+      <div class="col-md-3"><img src="images/styling/{{ i }}.jpg"></div>
+    {% endfor %}
   </div>
 </div>
