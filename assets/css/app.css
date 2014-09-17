@@ -93,9 +93,11 @@ div.project-text {
 
 div.project-text .col-md-3 {
   overflow: hidden;
+  height: 200px;
+  margin-bottom: 24px;
 }
 
 div.project-text img {
-  height: 200px;
-  margin-bottom: 24px;
+  min-height: 200px;
+  min-width 100%;
 }
