@@ -28,16 +28,19 @@ $(function() {
 
   $('.project-text a').click(function(e) {
     $('div.image-modal').html('<img src="' + $(this).attr('href') + '"/> <a class="modal-close">&#215;</a>');
+    $('body').addClass('no-scroll');
     $('div.image-modal').show();
     e.preventDefault();
   });
 
   $(window).bind('keyup', function(event) {
     if (event.keyCode == 27)
+      $('body').removeClass('no-scroll');
       $('.image-modal').hide();
   });
 
   $(document).on('click', 'a.modal-close', function() {
     $(this).parents('.image-modal').hide();
+    $('body').removeClass('no-scroll');
   });
 });
