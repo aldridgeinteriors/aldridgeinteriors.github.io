@@ -118,7 +118,9 @@ div.image-modal {
 }
 
 div.image-modal img {
-  width: 80%;
+  max-width: 80%;
+  height: auto;
+  margin: 40px 0;
 }
 
 div.no-scroll {
