@@ -28,6 +28,8 @@ $(function() {
 
   $('.project-text a').click(function(e) {
     $('div.image-modal').html('<img src="' + $(this).attr('href') + '"/> <a class="modal-close">&#215;</a>');
+    if ($(this).data('text'))
+      $('div.image-modal').append("<br/>" + "<p>" + $(this).data('text') + "</p>");
     $('body').addClass('no-scroll');
     $('div.image-modal').show();
     e.preventDefault();

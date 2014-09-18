@@ -123,6 +123,10 @@ div.image-modal img {
   margin: 40px 0;
 }
 
+div.image-modal p {
+  margin-bottom: 40px;
+}
+
 div.no-scroll {
   overflow: hidden;
 }
