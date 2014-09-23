@@ -143,3 +143,9 @@ a.modal-close {
   font-size: 48px;
   color: #cdde9b;
 }
+
+p.websites a {
+  color: #cdde9b;
+  font-size: 32px;
+  margin: 4px;
+}
