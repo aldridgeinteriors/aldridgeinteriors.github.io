@@ -158,3 +158,18 @@ div.nav-table {
   display: table;
   margin: 0 auto;
 }
+
+@media screen and ( max-width: 992px ) {
+  div.top-left, div.top-right {
+    border-top: none;
+  }
+
+  div.container {
+    border-right: none;
+    border-left: none;
+  }
+
+  div.bottom-left, div.bottom-right {
+    border-bottom: none;
+  }
+}
