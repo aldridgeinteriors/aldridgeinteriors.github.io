@@ -95,6 +95,11 @@ div.project-text {
   margin: 42px 18px;
 }
 
+div.project-text img {
+  margin-bottom: 18px;
+  max-width: 500px;
+}
+
 div.project-text .col-md-3 {
   overflow: hidden;
   height: 200px;
